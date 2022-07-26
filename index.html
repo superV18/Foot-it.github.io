@@ -10,32 +10,77 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="w3-top">
-      <div class="w3-bar w3-black">
-        <span class="branding w3-bar-item w3-mobile">Foot-it</span>
-        <span class="w3-right w3-mobile">
-          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#"
-            >Home</a
-          >
-          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#about"
-            >About</a
-          >
-          <a
-            class="w3-bar-item w3-button w3-mobile w3-hover-red"
-            href="#services"
-            >what we do</a
-          >
-          <a
-            class="w3-bar-item w3-button w3-mobile w3-hover-red"
-            href="#contact"
-            >Contact</a
-          >
-        </span>
+    <header>
+      <!-- Navigation Bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="logo" href="#">Foot-IT</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbar-content"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ps-2">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item ps-2">
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                
+                <li class="nav-item ps-2">
+                  <a href="#services" class="nav-link">Our Services</a>
+                </li>
+                
+                <li class="nav-item ps-2">
+                  <a href="#testimonial" class="nav-link">Testimonial</a>
+                </li>
+                <li class="nav-item ps-2">
+                  <a href="#contact" class="nav-link ">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-
+    </header>
     <section class="showcase">
       <div class="w3-container w3-center">
         <h1 class="w3-text-shadow w3-animate-opacity">Foot-it</h1>
@@ -43,7 +88,9 @@
         <p class="w3-animate-opacity">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
           culpa tempore nostrum qui doloremque aut ea reiciendis eius laborum
-          itaque!
+          itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Placeat accusamus qui tempora harum id nisi, quidem eligendi nihil nam
+          deserunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </p>
         <button
           onclick="document.getElementById('start-modal').style.display='block'"
@@ -75,17 +122,30 @@
             <img src="img/6.png" />
           </div>
           <div class="w3-col m7">
-            <button
-              onclick="accFunction('who')"
-              class="w3-btn-block w3-left-align"
-            >
-              About Us(click here)
+            <button class="w3-btn-block w3-left-align w3-xxlarge">
+              About Us
             </button>
-
-            <div id="who" class="w3-container w3-hide">
-              <h3>About Us</h3>
+            <div id="who" class="w3-container w3-show">
               <p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit esse possimus temporibus similique et fugiat labore repudiandae quae doloribus error facilis aspernatur odit adipisci inventore, voluptatibus earum voluptate blanditiis officia nisi? Eos dolorum consequatur fugiat quam mollitia voluptatibus dolorem rerum laudantium illum. Corporis porro mollitia totam explicabo asperiores facilis repellat voluptates, dolore maiores quod culpa? Earum, placeat nobis error itaque cupiditate dicta animi magni eum ullam dolore non aliquam excepturi tenetur quam vel velit quibusdam expedita beatae ut neque, id a reprehenderit. Non cupiditate facere voluptatum assumenda, quam numquam cum eveniet delectus in enim minus aut incidunt rerum illo. Quis illo molestias, id vitae reprehenderit corporis ut, nesciunt corrupti sed dicta consectetur labore nisi sit! Aperiam neque debitis ea, totam alias repudiandae voluptate eaque rem maiores laudantium at, optio praesentium, sunt soluta a incidunt delectus doloremque recusandae autem. Amet ab accusantium dolor iure soluta suscipit, molestias laboriosam fugiat. Blanditiis!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+                velit esse possimus temporibus similique et fugiat labore
+                repudiandae quae doloribus error facilis aspernatur odit
+                adipisci inventore, voluptatibus earum voluptate blanditiis
+                officia nisi? Eos dolorum consequatur fugiat quam mollitia
+                voluptatibus dolorem rerum laudantium illum. Corporis porro
+                mollitia totam explicabo asperiores facilis repellat voluptates,
+                dolore maiores quod culpa? Earum, placeat nobis error itaque
+                cupiditate dicta animi magni eum ullam dolore non aliquam
+                excepturi tenetur quam vel velit quibusdam expedita beatae ut
+                neque, id a reprehenderit. Non cupiditate facere voluptatum
+                assumenda, quam numquam cum eveniet delectus in enim minus aut
+                incidunt rerum illo. Quis illo molestias, id vitae reprehenderit
+                corporis ut, nesciunt corrupti sed dicta consectetur labore nisi
+                sit! Aperiam neque debitis ea, totam alias repudiandae voluptate
+                eaque rem maiores laudantium at, optio praesentium, sunt soluta
+                a incidunt delectus doloremque recusandae autem. Amet ab
+                accusantium dolor iure soluta suscipit, molestias laboriosam
+                fugiat. Blanditiis!
               </p>
             </div>
           </div>
@@ -102,33 +162,183 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit esse possi
     <section class="section w3-light-grey">
       <div class="w3-container w3-center">
         <div class="w3-row">
-          <div class="w3-col m3">
+          <div class="w3-col m3 w3-panel w3-border w3-padding-16">
             <i class="fa fa-comment"></i>
-            <h3>socials</h3>
-            <p>finding football fans around sri lanaka through social medias</p>
+            <h3>Socials</h3>
+            <p>
+              finding football fans around sri lanaka through social
+              medias.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dolor velit esse possimus temporibus similique et fugiat labore
+              repudiandae quae doloribus error facilis aspernatur odit adipisci
+              inventore, voluptatibus earum voluptate blanditiis officia nisi?
+              Eos dolorum consequatur fugiat quam mollitia voluptatibus dolorem
+              rerum laudantium illum. Corporis porro mollitia totam explicabo
+              asperiores facilis repellat voluptates, dolore maiores quod culpa?
+              Earum, placeat nobis error itaque cupiditate dicta animi magni eum
+              ullam dolore non aliquam excepturi tenetur quam vel velit
+              quibusdam expedita beatae ut neque, id a reprehenderit. Non
+              cupiditate facere voluptatum assumenda, quam numquam cum eveniet
+              delectus in enim minus aut incidunt rerum illo.
+            </p>
           </div>
-          <div class="w3-col m3">
+          <div class="w3-col m3 w3-panel w3-border w3-padding-16">
             <i class="fa fa-futbol-o"></i>
-            <h3>information</h3>
+            <h3>Information</h3>
             <p>
               finding latest football stories and news and share those in our
-              fanpage
+              fanpage. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dolor velit esse possimus temporibus similique et fugiat labore
+              repudiandae quae doloribus error facilis aspernatur odit adipisci
+              inventore, voluptatibus earum voluptate blanditiis officia nisi?
+              Eos dolorum consequatur fugiat quam mollitia voluptatibus dolorem
+              rerum laudantium illum. Corporis porro mollitia totam explicabo
+              asperiores facilis repellat voluptates, dolore maiores quod culpa?
+              Earum, placeat nobis error itaque cupiditate dicta animi magni eum
+              ullam dolore non aliquam excepturi tenetur quam vel velit
+              quibusdam expedita beatae ut neque, id a reprehenderit. Non
+              cupiditate facere voluptatum assumenda, quam numquam cum eveniet
+              delectus in enim minus aut incidunt rerum illo.
             </p>
           </div>
-          <div class="w3-col m3">
+          <div class="w3-col m3 w3-panel w3-border w3-padding-16">
             <i class="fa fa-eye"></i>
-            <h3>scouting</h3>
+            <h3>Scouting</h3>
             <p>
               scouting sri Lankan playes for clubs like sounders,colombo fc,etc.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              velit esse possimus temporibus similique et fugiat labore
+              repudiandae quae doloribus error facilis aspernatur odit adipisci
+              inventore, voluptatibus earum voluptate blanditiis officia nisi?
+              Eos dolorum consequatur fugiat quam mollitia voluptatibus dolorem
+              rerum laudantium illum. Corporis porro mollitia totam explicabo
+              asperiores facilis repellat voluptates, dolore maiores quod culpa?
+              Earum, placeat nobis error itaque cupiditate dicta animi magni eum
+              ullam dolore non aliquam excepturi tenetur quam vel velit
+              quibusdam expedita beatae ut neque, id a reprehenderit. Non
+              cupiditate facere voluptatum assumenda, quam numquam cum eveniet
+              delectus in enim minus aut incidunt rerum illo.
             </p>
           </div>
-          <div class="w3-col m3">
+          <div class="w3-col m3 w3-panel w3-border w3-padding-16">
             <i class="fa fa-user-circle"></i>
             <h3>Gather experience from pros</h3>
             <p>
               Gathering information from pro footballers in sri lanka and share
-              those on our fan page
+              those on our fan page. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Dolor velit esse possimus temporibus similique
+              et fugiat labore repudiandae quae doloribus error facilis
+              aspernatur odit adipisci inventore, voluptatibus earum voluptate
+              blanditiis officia nisi? Eos dolorum consequatur fugiat quam
+              mollitia voluptatibus dolorem rerum laudantium illum. Corporis
+              porro mollitia totam explicabo asperiores facilis repellat
+              voluptates, dolore maiores quod culpa? Earum, placeat nobis error
+              itaque cupiditate dicta animi magni eum ullam dolore non aliquam
+              excepturi tenetur quam vel velit quibusdam expedita beatae ut
+              neque, id a reprehenderit. Non cupiditate facere voluptatum
+              assumenda, quam numquam cum eveniet delectus.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="section w3-red w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">TESTIMONIAL</h1>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="testimonials-content">
+            <div class="testimonials-box">
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/2.png" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Rohit Gaur</h6>
+                  <p>Software Engineer</p>
+                  <div>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star-o testimonial-icon-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/3.png" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Shubha Raj</h6>
+                  <p>JavaScript Engineer</p>
+                  <div>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star-half-empty testimonial-icon-star"></i>
+                    <i class="fa fa-star-o testimonial-icon-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/2.png" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Ryan De Flora</h6>
+                  <p>ReactJS Engineer</p>
+                  <div>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/3.png" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Amia De Cruz</h6>
+                  <p>Front-End Developer</p>
+                  <div>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star testimonial-icon-star"></i>
+                    <i class="fa fa-star-o testimonial-icon-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider"></div>
           </div>
         </div>
       </div>
@@ -208,14 +418,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit esse possi
 
     <div id="start-modal" class="w3-modal">
       <div class="w3-modal-content">
-        <header class="w3-container w3-red">
+        <div class="w3-container w3-red">
           <span
             onclick="document.getElementById('start-modal').style.display='none'"
             class="w3-closebtn"
             >&times;</span
           >
           <h2>Join with us</h2>
-        </header>
+        </div>
 
         <div class="w3-container">
           <form>
@@ -226,7 +436,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit esse possi
                 type="text"
                 placeholder="Enter Name"
               />
-              <label>mobile number</label>
+              <label>Mobile Number</label>
               <input
                 class="w3-input w3-border w3-margin-bottom"
                 type="text"
@@ -253,15 +463,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit esse possi
       </div>
     </div>
 
-    <script>
-      function accFunction(id) {
-        var x = document.getElementById(id);
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-        } else {
-          x.className = x.className.replace(" w3-show", "");
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

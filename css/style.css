@@ -1,11 +1,85 @@
-.branding{
-  font-size:17px;
+*{
+	margin: 0%;
+	padding: 0%;
 }
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+
+/* Header */
+/* ---------------------------------------------------- */
+
+/* Container */
+header{
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	z-index: 999;
+
+}
+header .container-fluid {
+	padding: 0 !important;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	overflow: hidden;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #f44336 !important;
+}
+
+.logo{
+	text-decoration: none;
+	color: #fff !important;
+	font-size: 2.5rem;
+}
+
+
+.nav-link {
+	color: #fff !important;
+	font-size: 1.5rem;
+}
+.logo:hover{
+	color: black !important;
+	padding: 0.25rem;
+}
+
+.nav-link:hover {
+	color: black !important;
+	padding: 0.5rem;
+	font-size: 1.75rem;
+}
+
+.active {
+	color: white !important;
+	border-bottom: #fff;
+}
+
+.dropdown-header {
+	color:  #f44336 !important;
+}
+
+@media only screen and (max-width: 710px) {
+	.w3-container{
+		padding-top: 3rem !important;
+	}
+	
+}
+
+/* headerend */
+
 
 .showcase{
   background:url('../img/5.png') no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 700px;
   padding:140px 100px;
   color:#fff;
 }
@@ -24,12 +98,15 @@
 }
 
 .showcase p{
-  font-size:16px;
+  font-size:30px;
   padding-bottom:20px;
 }
 
 .section{
   padding:40px 0;
+}
+#about,#services,#contact,#testimonial{
+	padding-top: 5rem;
 }
 
 .section h2{
@@ -44,6 +121,27 @@
 .section img{
   width:100%;
 }
+#who p{
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	font-size: 20px;
+}
+
+@media only screen and (max-width:710px){
+  
+	.showcase{
+	  height:400px;
+	  padding: 60px 0;
+	}
+	.showcase h1{
+	  font-size: larger;
+	  }
+  
+	  .showcase p{
+		  font-size: large;
+	  }
+  }
 
 @media only screen and (max-width:600px){
   body{
@@ -54,7 +152,36 @@
     height:400px;
     padding: 60px 0;
   }
+  .showcase h1{
+	font-size: large;
+	}
+
+	.showcase p{
+		font-size: medium;
+	}
 }
+
+@media (max-width: 500px) {
+
+	.showcase h1{
+		font-size: medium;
+	}
+
+	.showcase p{
+		font-size: small;
+	}
+	.testimonials-box .testimonials-img {
+		flex-wrap: wrap;
+		text-align: center;
+	  }
+	
+	  .testimonials-img .test-img {
+		flex: 0 0 100%;
+		max-width: 100%;
+	
+	  }
+}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
@@ -189,12 +316,10 @@
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
@@ -221,5 +346,93 @@
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+
+}
+
+/* testimonials */
+
+.testimonials {
+    padding: 100px 0px;
+}
+
+.testimonials .title h1::before {
+    left: 30%;
+}
+
+.testimonials-content {
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.testimonials-box {
+    float: left;
+    transition: margin 1s ease;
+}
+
+.testimonials-img {
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: 1px solid rgb(226, 221, 221);
+    padding: 40px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    width: 100%;
+}
+
+.test-img {
+    flex: 0 0 118px;
+    max-width: 118px;
+}
+
+.test-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonials-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+}
+
+.testimonials-text h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 10px 0 5px;
+}
+.testimonial-icon-star{
+    color:#5f88e0;
+}
+
+.slider {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.slider div {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #5f88e0;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+  a{
+	text-decoration: none;
+  }
+
+.slider div.active {
+    background-color: #5f88e0;
 
 }
